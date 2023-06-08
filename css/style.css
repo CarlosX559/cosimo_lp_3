@@ -187,7 +187,7 @@ nav ul li:hover {
 
 .btn_container_1 h2 {
     color: #FFFFFF;
-    font-weight: var(--font-weight-600);
+    font-weight: var(--font-weight-500);
     font-size: 20px;
     margin: 0px;
     text-transform: uppercase;
@@ -531,6 +531,7 @@ nav ul li:hover {
     display: flex;
     justify-content: space-between;
     position: relative;
+    z-index: 1;
     width: 100%;
 }
 
@@ -578,6 +579,18 @@ nav ul li:hover {
     text-align: center;
     color: #FFFFFF;
     margin: 0px;
+}
+
+.line_container_5 {
+    position: absolute;
+    top: 20%;
+    right: calc(20% - 150px);
+    z-index: -1;
+    width: 100%;
+    max-width: 1000px;
+    height: 6px;
+    background: #032D7F;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*Contato*/
@@ -715,4 +728,336 @@ footer {
     font-size: 20px;
     color: #FFFFFF;
     margin: 0px;
+}
+
+
+@media(max-width: 1024px) {
+    .btn_container_1 h2 {
+        font-size: 18px;
+    }
+
+    #container_1 {
+        height: 650px;
+    }
+
+    .area_container_1 {
+        padding: 0px 20px;
+    }
+
+    .title_container_1 h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+
+    #container_2 {
+        padding: 40px 0px 60px 0px;
+        background: linear-gradient(41.28deg, #00219D 19.38%, rgba(0, 33, 157, 0) 94.18%), #066FF4;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .area_container_2 {
+        gap: 40px;
+    }
+
+    .area_plataforma {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .bg_plataforma img {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .area_text_plataforma {
+        max-width: 580px;
+    }
+
+    .title_plataforma h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .card_servicos {
+        height: 260px;
+    }
+
+    .card_servicos_int {
+        gap: 20px;
+    }
+
+    .title_servicos h2 {
+        font-size: 18px;
+    }
+
+    .sub_title_servicos p {
+        font-size: 16px;
+    }
+
+    /*Container 3*/
+    #container_3 {
+        margin: 0px 20px;
+    }
+
+    .container_3 {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title_financeiro h2 {
+        text-align: center;
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .area_container_3 {
+        gap: 20px;
+        padding: 0px 10px;
+    }
+
+    .sub_title_financeiro p {
+        font-size: 16px;
+    }
+
+    /*Container 4*/
+    .container_4 {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .title_container_4 h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .area_container_4 {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .area_cards_container_4 {
+        gap: 40px;
+    }
+
+    .cards_container_4 {
+        max-width: 500px;
+    }
+
+    .title_container_5 h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .area_container_5 {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .area_info_container_5 {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .info_container_5 {
+        gap: 20px;
+    }
+
+    .line_container_5 {
+        display: none;
+    }
+
+    /*Contato*/
+    #contato {
+        height: 400px;
+    }
+
+    .area_contato {
+        max-width: 340px;
+    }
+
+    .info_contato p {
+        font-size: 18px;
+    }
+
+    .title_contato h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .btn_container_contato {
+        margin: 0px;
+    }
+
+    .btn_container_contato h2 {
+        font-size: 18px;
+    }
+
+    .area_footer {
+        padding: 0px 20px;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    header {
+        height: 80px;
+        background-color: #1a3c6c;
+    }
+
+    .btn_container_1 h2 {
+        font-size: 16px;
+    }
+
+    #container_1 {
+        height: 520px;
+    }
+
+    .title_container_1 h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .area_container_1 {
+        text-align: center;
+        align-items: center;
+        max-width: max-content;
+    }
+
+    .title_plataforma h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .card_servicos {
+        height: 240px;
+    }
+
+    .area_servicos {
+        gap: 20px;
+    }
+
+    #container_2 {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .card_servicos_int {
+        padding: 30px 12px;
+    }
+
+    .title_financeiro h2 {
+        text-align: center;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .container_3 {
+        padding: 30px 0px 30px 0px;
+    }
+
+
+    /*Container 4*/
+    .title_container_4 h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .cards_container_4 {
+        padding: 20px 0px;
+    }
+
+    .area_text_card img {
+        width: 100%;
+        max-width: 50px;
+    }
+
+    .cards_container_4_int {
+        gap: 10px;
+        padding: 0px 20px;
+    }
+
+    .title_card_container_4 h2 {
+        font-size: 18px;
+    }
+
+    .sub_title_container_4 p {
+        font-size: 16px;
+    }
+
+    /*Container 5*/
+    .container_5 {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title_container_5 h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .area_info_container_5 {
+        gap: 20px;
+    }
+
+    .info_container_5 {
+        max-width: 100%;
+    }
+
+    .circulo_info {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circulo_info_int {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circulo_info_int h2 {
+        font-size: 40px;
+    }
+
+    .info_container_5 {
+        gap: 15px;
+    }
+
+    .sub_title_info p {
+        font-size: 16px;
+    }
+
+    .area_contato {
+        max-width: 290px;
+    }
+
+    .title_contato h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .btn_container_contato h2 {
+        font-size: 14px;
+    }
+
+    footer {
+        height: 160px;
+    }
+
+    .logo_footer img {
+        max-width: 180px;
+    }
+
+    .area_footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .copy p {
+        font-size: 16px;
+    }
+
 }
