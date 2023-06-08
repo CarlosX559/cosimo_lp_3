@@ -268,7 +268,7 @@ nav ul li:hover {
     background: rgba(11, 78, 210, 0.69);
     box-shadow: -10px 27px 36px rgba(0, 0, 0, 0.11);
     backdrop-filter: blur(10.5px);
-    border-radius: 65px;
+    border-radius: 40px;
 }
 
 .card_servicos_int {
@@ -441,7 +441,7 @@ nav ul li:hover {
     background: #052151;
     box-shadow: -10px 27px 36px rgba(0, 0, 0, 0.11);
     backdrop-filter: blur(10.5px);
-    border-radius: 65px;
+    border-radius: 40px;
 }
 
 .cards_container_4_int {
@@ -1060,4 +1060,35 @@ footer {
         font-size: 16px;
     }
 
+}
+
+@media(max-width: 480px) {
+    .card_servicos {
+        border-radius: 40px;
+    }
+    .cards_container_4 {
+        border-radius: 40px;
+    }
+
+    .circulo_info {
+        width: 90px;
+        height: 90px;
+    }
+
+    .circulo_info_int {
+        width: 70px;
+        height: 70px;
+    }
+
+    .circulo_info_int h2 {
+        font-size: 32px;
+    }
+
+    .circulo_info_int img {
+        max-width: 20px;
+    }
+
+    #container_3 {
+        border-radius: 20px;
+    }
 }
